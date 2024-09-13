@@ -1,0 +1,152 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1;
+}
+
+#Header {
+    display: flex;
+    justify content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 75px;
+}
+
+.left{
+    float: left;
+    width: 30%;
+    padding: 8px 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.right{
+    text-align: right;
+    width: 30%;
+    font-size: 13px;
+    padding: 3px 12px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+}
+
+
+#Sign-Up {
+    background-image: url('images/lawyer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: left;
+    height: 500px;
+}
+
+.s-u{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background-color: #0c3c5e;
+    padding: 30px;
+    max-width: 210px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+#Features{
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.inline {
+    display: inline-block;
+    width: 20%;
+    height: 60%;
+    margin-right: 10px;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+}
+
+#Quote{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.q-container{
+    text-align: center;
+}
+
+#Plans {
+    background: linear-gradient(rgba(225,225,225,0.7), rgba(225,225,225,0.7)), url('images/glasses.png') fixed;
+    background-size: cover;
+    background-position: top;
+    justify-content:space-between;
+    align-items:center;
+    height: 400px;
+}
+
+.row{
+    margin-left: 27%;
+}
+
+.inline-p {
+    display: inline-block;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5px;
+    max-width: 150px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+#Try-It {
+    background-image: linear-gradient(rgba(46,84,125, 0.8), rgba(46,84,125, 0.8)),  url('images/notebook.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.inline-t{
+    display: inline-block;
+    width: 40%;
+    margin-right: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+#Footer {
+    background-color: #1d2530;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center:;
+    height: 150px;
+}
+
+.inline-f{
+    display: inline-block;
+    width: 100%;
+    margin-right: 20px;
+    vertical-align: top;
+    text-align: center;
+}
